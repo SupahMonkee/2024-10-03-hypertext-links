@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<head>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        ul.nav_menu {
+            width: 150px;
+            padding-left: 0px;
+        }
+
+        div {
+            color: white;
+        }
+
+        div.title {
+            color: white;
+        }
+
+        #hidden{
+            color: white;
+            visibility: hidden;
+            position: absolute;
+            top: 44px;
+            left: 553px;
+        }
+
+        #hidden2{
+            color: white;
+            visibility: hidden;
+            position: absolute;
+            top: 44px;
+            left: 770px;
+        }
+
+        div.title:hover ~ #hidden {
+            color: white;
+            visibility: visible;
+        }
+
+        div.title:hover ~ #hidden2 {
+            color: white;
+            visibility: visible;
+        }
+
+        li {
+            list-style-type: none;
+            width: 150px;
+            border: 2px solid white;
+            color: white;
+            background-color: black;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            text-align: center;
+            transition: 0.2s;
+        }
+
+        li:hover {
+            color: black;
+            background-color: white;
+            transition: 0.2s;
+        }
+
+        a,
+        a.visited,
+        a.link {
+            text-decoration: none;
+        }
+
+        img {
+            border: solid white 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <br>
+    <br>
+    <div class="title">
+        <center>
+            <h1>cheese</h1>
+        </center>
+    </div>
+    <span id="hidden">
+        <h1>i like my</h1>
+    </span>
+    <span id="hidden2">
+        <h1>drippy bruh</h1>
+    </span>
+    <br>
+    <br>
+    <center>
+        <img src="https://www.comingsoon.net/wp-content/uploads/sites/3/2024/10/Logan-Paul-MrBeast.jpg?w=1024"
+            width="600">
+    </center>
+    <br>
+    <br>
+    <center>
+        <ul class="nav_menu">
+
+            <a href="titlepage.html">
+                <li>back to menu</li>
+            </a>
+
+        </ul>
+    </center>
+</body>

@@ -11,6 +11,10 @@
 #mouseHover:hover ~ #mouse {
     opacity:1;
 }
+#wordHover:hover ~ #word {
+    color: black;
+    visibility: visible;
+}
 li {
     list-style-type: none;
         border: 1px solid blue;
@@ -40,11 +44,16 @@ li {
         opacity: 0;
         transition: 2.5s;
     }
+    #word {
+        visibility: hidden;
+    }
 
 </style>
 <div id="catHover"><li>Cat</li></div>
 <div id="dogHover"><li>Dog</li></div>
 <div id="mouseHover"><li>Mouse</li></div>
+<div id="wordHover"><li>Word</li></div>
+<span id="word">Content</span>
 
 <div id="cat">
     <img src="cat.png">
